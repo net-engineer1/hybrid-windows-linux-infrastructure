@@ -13,4 +13,20 @@
 - git status - проверка изменений
 - git add - добавление файлов
 - git commit - фиксация состояния проекта
-- git push - отправка изменений на GitHub 
+- git push - отправка изменений на GitHub
+
+## Git: коммиты и отправка в GitHub
+Сначала Git потребовал указать автора коммитов.
+Без user.name и user.email коммиты не выполняются.
+
+- Настройка:
+git config --global user.name "Имя Фамилия"
+git config --global user.email "email@example.com"
+
+- Проверка:
+git config -- global --list
+
+- После настройки выполнены команды:
+git status
+git commit -m "Этап 0: старт проекта и конспект"
+git push
