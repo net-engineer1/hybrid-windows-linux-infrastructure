@@ -28,7 +28,7 @@
 - как они связаны между собой
 
 ## Логическая схема
-
+```
 [ Интернет ]
      |
 [ NAT / Host ]
@@ -38,6 +38,7 @@
 [ Windows Server ]             [ Ubuntu Server ]
 (AD, DNS, DHCP)                (Monitoring, Scripts)
 IP: 192.168.56.10               IP: 192.168.56.20
+```
 
 ### NAT / Host
 NAT в VirtualBox используется как сетевой шлюз для виртуальных машин.
