@@ -44,9 +44,9 @@
 - RAM: 4 GB
 - Disk: 50 GB
 
-- Сеть:
+- Настройки сети/ настройки адаптера:
    - Adapter 1: NAT
-   - Adapter 2: Host-Only
+   - Adapter 2: Host-Only (Виртуальный адаптер)
 
 
  ## 4. Ubuntu Server VM
@@ -64,3 +64,20 @@
     - Adapter 1: NAT
     - Adapter 2: Host-Only
     
+
+## План работ:
+- Создать Host-Only сеть VirtualBox
+- Отключить DHCP в Host-Only
+- Подключить NAT + Host-Only к Windows Server и Ubuntu Server
+- Зафиксировать IP план
+
+## Ip-план лаборатории:
+
+```
+
+| Устройство | Роль         | IP            |
+|  Host      | Host-Only    | 192.168.56.1  |
+|  DC01      | AD/DNS/DHCP  | 192.168.56.10 |
+|  LNX01     | Linux Server | 192.168.56.20 |
+
+````
