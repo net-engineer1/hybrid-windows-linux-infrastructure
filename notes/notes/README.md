@@ -1,4 +1,4 @@
-# Hybrid Windows + Linux Infrastructure
+## Hybrid Windows + Linux Infrastructure
 
 Пет-проект по развертыванию и администрированию гибридной инфраструктуры Windows + Linux: Active Directory, сети, мониторинг, резервное копирование и автоматизация.
 
